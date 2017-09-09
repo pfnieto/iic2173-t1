@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/4.3.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/4.3.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/4.3.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/4.3.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/4.3.1/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="user-info">
+      <h2 id="welcome">Tu dirección IP actual es:</h2>
+      <h2 id="current-time">La fecha y hora actual son: </h2>
+    </div>
+    <div id="previous-info">
+      <p>Los últimos 10 visitantes a esta página son:</p>
+      <ol id="previous-visitors">
+      </ol>
+    </div>
+    <script src="func.js"></script>
+  </body>
+</html>
